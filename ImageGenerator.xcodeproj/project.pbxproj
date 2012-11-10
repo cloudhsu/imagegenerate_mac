@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040B3A501574F8F500C4DB81 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040B3A4F1574F8F500C4DB81 /* Cocoa.framework */; };
+		040B3A5A1574F8F500C4DB81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 040B3A581574F8F500C4DB81 /* InfoPlist.strings */; };
+		040B3A5C1574F8F500C4DB81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040B3A5B1574F8F500C4DB81 /* main.m */; };
+		040B3A601574F8F500C4DB81 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 040B3A5E1574F8F500C4DB81 /* Credits.rtf */; };
+		040B3A631574F8F500C4DB81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040B3A621574F8F500C4DB81 /* AppDelegate.m */; };
+		040B3A661574F8F500C4DB81 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040B3A641574F8F500C4DB81 /* MainMenu.xib */; };
+		040B3A6D1574F9B100C4DB81 /* CloudBoxIcon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 040B3A6C1574F9B100C4DB81 /* CloudBoxIcon128.png */; };
+		040B3A711574FEC400C4DB81 /* ImageGeneratorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040B3A6F1574FEC400C4DB81 /* ImageGeneratorController.m */; };
+		04A33FB915766506000E0A0E /* CBImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A33FB815766506000E0A0E /* CBImageInfo.m */; };
+		04A33FBD15766EAA000E0A0E /* CBIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A33FBC15766EAA000E0A0E /* CBIconInfo.m */; };
+		04A33FC015766EFE000E0A0E /* CBImageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A33FBF15766EFE000E0A0E /* CBImageFile.m */; };
+		04A33FC315766F9D000E0A0E /* CBDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A33FC215766F9D000E0A0E /* CBDeviceManager.m */; };
+		04A33FC615766FB1000E0A0E /* CBImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A33FC515766FB1000E0A0E /* CBImageManager.m */; };
+		04E4556E157653EC000892BD /* CBGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4556D157653EC000892BD /* CBGenerator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040B3A4B1574F8F500C4DB81 /* ImageGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040B3A4F1574F8F500C4DB81 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		040B3A521574F8F500C4DB81 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		040B3A531574F8F500C4DB81 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		040B3A541574F8F500C4DB81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		040B3A571574F8F500C4DB81 /* ImageGenerator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageGenerator-Info.plist"; sourceTree = "<group>"; };
+		040B3A591574F8F500C4DB81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		040B3A5B1574F8F500C4DB81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040B3A5D1574F8F500C4DB81 /* ImageGenerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		040B3A5F1574F8F500C4DB81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		040B3A611574F8F500C4DB81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040B3A621574F8F500C4DB81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040B3A651574F8F500C4DB81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		040B3A6C1574F9B100C4DB81 /* CloudBoxIcon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloudBoxIcon128.png; sourceTree = "<group>"; };
+		040B3A6E1574FEC400C4DB81 /* ImageGeneratorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageGeneratorController.h; sourceTree = "<group>"; };
+		040B3A6F1574FEC400C4DB81 /* ImageGeneratorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGeneratorController.m; sourceTree = "<group>"; };
+		04A33FB715766506000E0A0E /* CBImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBImageInfo.h; sourceTree = "<group>"; };
+		04A33FB815766506000E0A0E /* CBImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBImageInfo.m; sourceTree = "<group>"; };
+		04A33FBB15766EAA000E0A0E /* CBIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBIconInfo.h; sourceTree = "<group>"; };
+		04A33FBC15766EAA000E0A0E /* CBIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBIconInfo.m; sourceTree = "<group>"; };
+		04A33FBE15766EFE000E0A0E /* CBImageFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBImageFile.h; sourceTree = "<group>"; };
+		04A33FBF15766EFE000E0A0E /* CBImageFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBImageFile.m; sourceTree = "<group>"; };
+		04A33FC115766F9D000E0A0E /* CBDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBDeviceManager.h; sourceTree = "<group>"; };
+		04A33FC215766F9D000E0A0E /* CBDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBDeviceManager.m; sourceTree = "<group>"; };
+		04A33FC415766FB1000E0A0E /* CBImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBImageManager.h; sourceTree = "<group>"; };
+		04A33FC515766FB1000E0A0E /* CBImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBImageManager.m; sourceTree = "<group>"; };
+		04E4556C157653EC000892BD /* CBGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBGenerator.h; sourceTree = "<group>"; };
+		04E4556D157653EC000892BD /* CBGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBGenerator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040B3A481574F8F500C4DB81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040B3A501574F8F500C4DB81 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040B3A401574F8F500C4DB81 = {
+			isa = PBXGroup;
+			children = (
+				040B3A6C1574F9B100C4DB81 /* CloudBoxIcon128.png */,
+				040B3A551574F8F500C4DB81 /* ImageGenerator */,
+				040B3A4E1574F8F500C4DB81 /* Frameworks */,
+				040B3A4C1574F8F500C4DB81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040B3A4C1574F8F500C4DB81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040B3A4B1574F8F500C4DB81 /* ImageGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040B3A4E1574F8F500C4DB81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040B3A4F1574F8F500C4DB81 /* Cocoa.framework */,
+				040B3A511574F8F500C4DB81 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		040B3A511574F8F500C4DB81 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040B3A521574F8F500C4DB81 /* AppKit.framework */,
+				040B3A531574F8F500C4DB81 /* CoreData.framework */,
+				040B3A541574F8F500C4DB81 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		040B3A551574F8F500C4DB81 /* ImageGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				040B3A611574F8F500C4DB81 /* AppDelegate.h */,
+				040B3A621574F8F500C4DB81 /* AppDelegate.m */,
+				040B3A641574F8F500C4DB81 /* MainMenu.xib */,
+				040B3A561574F8F500C4DB81 /* Supporting Files */,
+				040B3A6E1574FEC400C4DB81 /* ImageGeneratorController.h */,
+				040B3A6F1574FEC400C4DB81 /* ImageGeneratorController.m */,
+				04E4556C157653EC000892BD /* CBGenerator.h */,
+				04E4556D157653EC000892BD /* CBGenerator.m */,
+				04A33FB715766506000E0A0E /* CBImageInfo.h */,
+				04A33FB815766506000E0A0E /* CBImageInfo.m */,
+				04A33FBB15766EAA000E0A0E /* CBIconInfo.h */,
+				04A33FBC15766EAA000E0A0E /* CBIconInfo.m */,
+				04A33FBE15766EFE000E0A0E /* CBImageFile.h */,
+				04A33FBF15766EFE000E0A0E /* CBImageFile.m */,
+				04A33FC115766F9D000E0A0E /* CBDeviceManager.h */,
+				04A33FC215766F9D000E0A0E /* CBDeviceManager.m */,
+				04A33FC415766FB1000E0A0E /* CBImageManager.h */,
+				04A33FC515766FB1000E0A0E /* CBImageManager.m */,
+			);
+			path = ImageGenerator;
+			sourceTree = "<group>";
+		};
+		040B3A561574F8F500C4DB81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040B3A571574F8F500C4DB81 /* ImageGenerator-Info.plist */,
+				040B3A581574F8F500C4DB81 /* InfoPlist.strings */,
+				040B3A5B1574F8F500C4DB81 /* main.m */,
+				040B3A5D1574F8F500C4DB81 /* ImageGenerator-Prefix.pch */,
+				040B3A5E1574F8F500C4DB81 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040B3A4A1574F8F500C4DB81 /* ImageGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040B3A691574F8F600C4DB81 /* Build configuration list for PBXNativeTarget "ImageGenerator" */;
+			buildPhases = (
+				040B3A471574F8F500C4DB81 /* Sources */,
+				040B3A481574F8F500C4DB81 /* Frameworks */,
+				040B3A491574F8F500C4DB81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageGenerator;
+			productName = ImageGenerator;
+			productReference = 040B3A4B1574F8F500C4DB81 /* ImageGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040B3A421574F8F500C4DB81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Orz;
+			};
+			buildConfigurationList = 040B3A451574F8F500C4DB81 /* Build configuration list for PBXProject "ImageGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 040B3A401574F8F500C4DB81;
+			productRefGroup = 040B3A4C1574F8F500C4DB81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040B3A4A1574F8F500C4DB81 /* ImageGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040B3A491574F8F500C4DB81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040B3A5A1574F8F500C4DB81 /* InfoPlist.strings in Resources */,
+				040B3A601574F8F500C4DB81 /* Credits.rtf in Resources */,
+				040B3A661574F8F500C4DB81 /* MainMenu.xib in Resources */,
+				040B3A6D1574F9B100C4DB81 /* CloudBoxIcon128.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040B3A471574F8F500C4DB81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040B3A5C1574F8F500C4DB81 /* main.m in Sources */,
+				040B3A631574F8F500C4DB81 /* AppDelegate.m in Sources */,
+				040B3A711574FEC400C4DB81 /* ImageGeneratorController.m in Sources */,
+				04E4556E157653EC000892BD /* CBGenerator.m in Sources */,
+				04A33FB915766506000E0A0E /* CBImageInfo.m in Sources */,
+				04A33FBD15766EAA000E0A0E /* CBIconInfo.m in Sources */,
+				04A33FC015766EFE000E0A0E /* CBImageFile.m in Sources */,
+				04A33FC315766F9D000E0A0E /* CBDeviceManager.m in Sources */,
+				04A33FC615766FB1000E0A0E /* CBImageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		040B3A581574F8F500C4DB81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040B3A591574F8F500C4DB81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		040B3A5E1574F8F500C4DB81 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040B3A5F1574F8F500C4DB81 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		040B3A641574F8F500C4DB81 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040B3A651574F8F500C4DB81 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040B3A671574F8F500C4DB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		040B3A681574F8F500C4DB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		040B3A6A1574F8F600C4DB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageGenerator/ImageGenerator-Prefix.pch";
+				INFOPLIST_FILE = "ImageGenerator/ImageGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		040B3A6B1574F8F600C4DB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageGenerator/ImageGenerator-Prefix.pch";
+				INFOPLIST_FILE = "ImageGenerator/ImageGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040B3A451574F8F500C4DB81 /* Build configuration list for PBXProject "ImageGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040B3A671574F8F500C4DB81 /* Debug */,
+				040B3A681574F8F500C4DB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040B3A691574F8F600C4DB81 /* Build configuration list for PBXNativeTarget "ImageGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040B3A6A1574F8F600C4DB81 /* Debug */,
+				040B3A6B1574F8F600C4DB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040B3A421574F8F500C4DB81 /* Project object */;
+}
