@@ -13,7 +13,6 @@
 		040B3A601574F8F500C4DB81 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 040B3A5E1574F8F500C4DB81 /* Credits.rtf */; };
 		040B3A631574F8F500C4DB81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040B3A621574F8F500C4DB81 /* AppDelegate.m */; };
 		040B3A661574F8F500C4DB81 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040B3A641574F8F500C4DB81 /* MainMenu.xib */; };
-		040B3A6D1574F9B100C4DB81 /* CloudBoxIcon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 040B3A6C1574F9B100C4DB81 /* CloudBoxIcon128.png */; };
 		040B3A711574FEC400C4DB81 /* ImageGeneratorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040B3A6F1574FEC400C4DB81 /* ImageGeneratorController.m */; };
 		04A33FB915766506000E0A0E /* CBImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A33FB815766506000E0A0E /* CBImageInfo.m */; };
 		04A33FBD15766EAA000E0A0E /* CBIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A33FBC15766EAA000E0A0E /* CBIconInfo.m */; };
@@ -37,7 +36,6 @@
 		040B3A611574F8F500C4DB81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		040B3A621574F8F500C4DB81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		040B3A651574F8F500C4DB81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		040B3A6C1574F9B100C4DB81 /* CloudBoxIcon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloudBoxIcon128.png; sourceTree = "<group>"; };
 		040B3A6E1574FEC400C4DB81 /* ImageGeneratorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageGeneratorController.h; sourceTree = "<group>"; };
 		040B3A6F1574FEC400C4DB81 /* ImageGeneratorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGeneratorController.m; sourceTree = "<group>"; };
 		04A33FB715766506000E0A0E /* CBImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBImageInfo.h; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 		040B3A401574F8F500C4DB81 = {
 			isa = PBXGroup;
 			children = (
-				040B3A6C1574F9B100C4DB81 /* CloudBoxIcon128.png */,
 				040B3A551574F8F500C4DB81 /* ImageGenerator */,
 				040B3A4E1574F8F500C4DB81 /* Frameworks */,
 				040B3A4C1574F8F500C4DB81 /* Products */,
@@ -194,7 +191,6 @@
 				040B3A5A1574F8F500C4DB81 /* InfoPlist.strings in Resources */,
 				040B3A601574F8F500C4DB81 /* Credits.rtf in Resources */,
 				040B3A661574F8F500C4DB81 /* MainMenu.xib in Resources */,
-				040B3A6D1574F9B100C4DB81 /* CloudBoxIcon128.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
