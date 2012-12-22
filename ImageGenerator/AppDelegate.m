@@ -117,6 +117,8 @@
     NSLog(@"btnGenerateImagesClick\n");
     float width = self.txtImageWidth.floatValue;
     float height = self.txtImageHeight.floatValue;
+    
+    
     if(NSOnState == self.cbxCustomSize.state)
     {
         [CBGenerator generateImagesWithRootPath:_imageRoot newWidth:width newHeight:height];

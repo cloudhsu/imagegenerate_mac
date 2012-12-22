@@ -18,12 +18,13 @@
     NSSize size = NSZeroSize;      
     size.width = newWidth;
     size.height = newHeight;
-    NSLog(@"image size width:%f height:%f\n",oldSize.width,oldSize.height);
+    NSLog(@"reset image %.0fx%.0f to %d x %d\n",oldSize.width,oldSize.height, newWidth, newHeight);
     
     NSImage *newImage = [[NSImage alloc] initWithSize:size];
     [newImage lockFocus];
 //    [srcImage drawInRect: NSMakeRect(0, 0, newWidth, newHeight) fromRect: NSMakeRect(0, 0, oldSize.width, oldSize.height) operation: NSCompositeSourceOver fraction: 1.0];
 //    [srcImage drawInRect: NSMakeRect(0, 0, newWidth, newHeight) fromRect: NSMakeRect(0, 0, oldSize.width, oldSize.height) operation: NSCompositeDestinationOver fraction: 1.0];
+ 
     [srcImage drawInRect: NSMakeRect(0, 0, newWidth, newHeight) fromRect: NSZeroRect operation: NSCompositeSourceOver fraction: 1.0];
     [newImage unlockFocus];
 
